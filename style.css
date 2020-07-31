@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  grid-template-columns: 1fr;
+  margin-left: -15px;
+}
+
+.content h2 {
+  margin-top: 10px;
+}
+
+.rts {
+  margin-top: 10px;
+  padding: 7px;
+}
+
+.rts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.score,
+.rated,
+.type,
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score h4,
+.rated h4,
+.type h4,
+.members h4 {
+  margin-top: -13px;
+}
+
+#brdr {
+  margin: 15px;
+  /* border: 1px solid rgba(0, 0, 0, 0.4); */
+}
+
+.sinopsis h4 {
+  margin: 10px 0;
+}
+
+.sinopsis p {
+  font-size: 18px;
+}
